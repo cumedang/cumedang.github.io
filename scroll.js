@@ -3,7 +3,20 @@ $(document).ready(function(){
     $(document).scroll(function() { 
         scroll_pos = $(this).scrollTop();
         console.log(scroll_pos);
-        if(scroll_pos>2000){
+        if(scroll_pos>2500){
+            $(".home").css('color', '#a8a9b4');
+            $(".main-home").css('color', '#a8a9b4');
+            $(".about").css('color', '#a8a9b4');
+            $(".main-about").css('color', '#a8a9b4');
+            $(".re").css('color', '#a8a9b4');
+            $(".main-re").css('color', '#a8a9b4');
+            $(".port").css('color', '#a8a9b4');
+            $(".main-port").css('color', '#a8a9b4');
+            $(".sk").css('color', '#a8a9b4');
+            $(".main-skill").css('color', '#a8a9b4');
+            $(".con").css('color', '#2ECCFA');
+            $(".main-con").css('color', '#2ECCFA');
+        }else if(scroll_pos>2000){
             $(".home").css('color', '#a8a9b4');
             $(".main-home").css('color', '#a8a9b4');
             $(".about").css('color', '#a8a9b4');
@@ -14,6 +27,8 @@ $(document).ready(function(){
             $(".main-port").css('color', '#a8a9b4');
             $(".sk").css('color', '#2ECCFA');
             $(".main-skill").css('color', '#2ECCFA');
+            $(".con").css('color', '#a8a9b4');
+            $(".main-con").css('color', '#a8a9b4');
         }else if(scroll_pos>1406){
             $(".home").css('color', '#a8a9b4');
             $(".main-home").css('color', '#a8a9b4');
@@ -25,6 +40,8 @@ $(document).ready(function(){
             $(".main-port").css('color', '#2ECCFA');
             $(".sk").css('color', '#a8a9b4');
             $(".main-skill").css('color', '#a8a9b4');
+            $(".con").css('color', '#a8a9b4');
+            $(".main-con").css('color', '#a8a9b4');
         }else if(scroll_pos >940){
             $(".home").css('color', '#a8a9b4');
             $(".main-home").css('color', '#a8a9b4');
@@ -36,6 +53,8 @@ $(document).ready(function(){
             $(".main-port").css('color', '#a8a9b4');
             $(".sk").css('color', '#a8a9b4');
             $(".main-skill").css('color', '#a8a9b4');
+            $(".con").css('color', '#a8a9b4');
+            $(".main-con").css('color', '#a8a9b4');
         }else if(scroll_pos > 384){
             $(".home").css('color', '#a8a9b4');
             $(".main-home").css('color', '#a8a9b4');
@@ -47,6 +66,8 @@ $(document).ready(function(){
             $(".main-port").css('color', '#a8a9b4');
             $(".sk").css('color', '#a8a9b4');
             $(".main-skill").css('color', '#a8a9b4');
+            $(".con").css('color', '#a8a9b4');
+            $(".main-con").css('color', '#a8a9b4');
         }else{
             $(".home").css('color', '#2ECCFA');
             $(".main-home").css('color', '#2ECCFA');
@@ -58,6 +79,8 @@ $(document).ready(function(){
             $(".main-port").css('color', '#a8a9b4');
             $(".sk").css('color', '#a8a9b4');
             $(".main-skill").css('color', '#a8a9b4');
+            $(".con").css('color', '#a8a9b4');
+            $(".main-con").css('color', '#a8a9b4');
         }
 
     });
