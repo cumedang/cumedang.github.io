@@ -124,17 +124,19 @@ span{
 .aboutme{
     height: 400px;
     width: 20%;
-    margin-left: 360px;
+    margin-left: 390px;
     margin-top: 40px;
+    opacity: 0;
 }
 .about-text{
     font-size: 40px;
-    margin-left: 360px;
+    margin-left: 390px;
     color: #173b6c;
     width: 20%;
     border-bottom: 3px solid #149ddd;
 }
 .main-title{
+    margin-left: 30px;
     font-size: 36px;
     color: #173b6c;
 }
@@ -143,38 +145,45 @@ span{
     margin-top: -420px;
 }
 .gac{
+    margin-left: 30px;
     font-size: 20px;
     color: black;
+    
 }
 .ch{
     color: #149ddd;
     margin-right: 10px;
 }
 .info{
+    margin-left: 30px;
     font-size: 20px;
-}
-@keyframes fadeInLeft {
-    0% {
-        opacity: 0;
-        transform: translate3d(-100%, 0, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translateZ(0);
-    }
-}
-@keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        transform: translate3d(100%, 0, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translateZ(0);
-    }
+    opacity: 0;
 }
 .aboutme.active{
-    animation: fadeInLeft 1s;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.info.active{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.gac.active{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.about-se.active{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.about-se{
+    opacity: 0;
+}
+.resume{
+    opacity: 0;
+}
+.resume.active{
+    opacity: 1;
+    transition: all 0.5s;
 }
 .resume-text{
     font-size: 40px;
@@ -242,6 +251,13 @@ span{
     width: 20%;
     border-bottom: 3px solid #149ddd;
 }
+.portfoilo{
+    opacity: 0;
+}
+.portfoilo.active{
+    opacity: 1;
+    transition: all 0.5s;
+}
 .port-cont{
     text-align-last: center;
     border: 2px solid black;
@@ -249,6 +265,20 @@ span{
     border-radius: 10%;
     margin-left: 360px;
     margin-top: 40px;
+}
+.skill{
+    opacity: 0;
+}
+.skill.active{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.contact{
+    opacity: 0;
+}
+.contact.active{
+    opacity: 1;
+    transition: all 0.5s;
 }
 .pc1{
     width: 30%;

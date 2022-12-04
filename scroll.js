@@ -94,6 +94,20 @@ const options = {
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
     console.log(entry.isIntersecting);
+    if (entry.isIntersecting) { 
+        entry.target.classList.add("active");
+    } else {
+        entry.target.classList.remove("active");
+    }
+    });
+}, options);
+
+const titleList = document.querySelectorAll('.about-se');
+titleList.forEach(el => observer.observe(el));
+//경계선
+const observer1 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+    console.log(entry.isIntersecting);
     if (entry.isIntersecting) {
         entry.target.classList.add("active");
     } else {
@@ -102,5 +116,76 @@ const observer = new IntersectionObserver(entries => {
     });
 }, options);
 
-const titleList = document.querySelectorAll('.aboutme');
-titleList.forEach(el => observer.observe(el));
+const titleList1 = document.querySelectorAll('.aboutme');
+titleList1.forEach(el => observer1.observe(el));
+//경계선
+const observer2 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+    console.log(entry.isIntersecting);
+    if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+    } else {
+        entry.target.classList.remove("active");
+    }
+    });
+}, options);
+
+const titleList2 = document.querySelectorAll('.info');
+titleList2.forEach(el => observer2.observe(el));
+//경계선
+const observer3 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+    console.log(entry.isIntersecting);
+    if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+    } else {
+        entry.target.classList.remove("active");
+    }
+    });
+}, options);
+
+const titleList3 = document.querySelectorAll('.resume');
+titleList3.forEach(el => observer3.observe(el));
+//경계선
+const observer4 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+    console.log(entry.isIntersecting);
+    if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+    } else {
+        entry.target.classList.remove("active");
+    }
+    });
+}, options);
+
+const titleList4 = document.querySelectorAll('.portfoilo');
+titleList4.forEach(el => observer4.observe(el));
+//경계선
+const observer5 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+    console.log(entry.isIntersecting);
+    if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+    } else {
+        entry.target.classList.remove("active");
+    }
+    });
+}, options);
+
+const titleList5 = document.querySelectorAll('.skill');
+titleList5.forEach(el => observer5.observe(el));
+//경계선
+const observer6 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+    console.log(entry.isIntersecting);
+    if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+    } else {
+        entry.target.classList.remove("active");
+    }
+    });
+}, options);
+
+const titleList6 = document.querySelectorAll('.contact');
+titleList6.forEach(el => observer6.observe(el));
+//경계선
