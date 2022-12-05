@@ -16,6 +16,7 @@ header{
     width: 300px;
     height: 100vh;
     position: fixed;
+    z-index: 999999;
 }
 .pro{
     text-align-last: center;

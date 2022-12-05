@@ -16,7 +16,7 @@ $(document).ready(function(){
             $(".main-skill").css('color', '#a8a9b4');
             $(".con").css('color', '#2ECCFA');
             $(".main-con").css('color', '#2ECCFA');
-        }else if(scroll_pos>2000){
+        }else if(scroll_pos>2200){
             $(".home").css('color', '#a8a9b4');
             $(".main-home").css('color', '#a8a9b4');
             $(".about").css('color', '#a8a9b4');
@@ -29,7 +29,7 @@ $(document).ready(function(){
             $(".main-skill").css('color', '#2ECCFA');
             $(".con").css('color', '#a8a9b4');
             $(".main-con").css('color', '#a8a9b4');
-        }else if(scroll_pos>1406){
+        }else if(scroll_pos>1706){
             $(".home").css('color', '#a8a9b4');
             $(".main-home").css('color', '#a8a9b4');
             $(".about").css('color', '#a8a9b4');
