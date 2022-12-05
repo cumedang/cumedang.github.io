@@ -121,11 +121,17 @@ span{
     animation:  cursor 0.2s ease infinite;
     border-bottom: 3px solid #149ddd;
 }
+.about_con {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 390px;
+}
+
 .aboutme{
     height: 400px;
-    width: 20%;
-    margin-left: 390px;
-    margin-top: 40px;
+    width: 29%;
+    /* margin-left: 390px;
+    margin-top: 40px; */
     opacity: 0;
 }
 .about-text{
@@ -141,8 +147,8 @@ span{
     color: #173b6c;
 }
 .about-title{
-    margin-left: 700px;
-    margin-top: -420px;
+    /* margin-left: 700px;
+    margin-top: -420px; */
 }
 .gac{
     margin-left: 30px;
