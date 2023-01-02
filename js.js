@@ -2,7 +2,7 @@ const $text = document.querySelector(".intro-text");
 
 // 글자 모음 - 개행문자(\n)로 줄바꿈
 const letters = [
-    "꿈꾸는 개발자",
+    "PHP 개발자",
     "백엔드 개발자", 
     "노력하는 개발자"
 ];

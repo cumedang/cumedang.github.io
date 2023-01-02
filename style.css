@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
-    scroll-behavior: smooth;
 }
 .con-icon{
     margin-top: 15px;
@@ -133,7 +132,7 @@ span{
     width: 29%;
     /* margin-left: 390px;
     margin-top: 40px; */
-    opacity: 0;
+    
 }
 .about-text{
     font-size: 40px;
@@ -146,10 +145,6 @@ span{
     margin-left: 30px;
     font-size: 36px;
     color: #173b6c;
-}
-.about-title{
-    /* margin-left: 700px;
-    margin-top: -420px; */
 }
 .gac{
     margin-left: 30px;
@@ -164,33 +159,6 @@ span{
 .info{
     margin-left: 30px;
     font-size: 20px;
-    opacity: 0;
-}
-.aboutme.active{
-    opacity: 1;
-    transition: all 0.5s;
-}
-.info.active{
-    opacity: 1;
-    transition: all 0.5s;
-}
-.gac.active{
-    opacity: 1;
-    transition: all 0.5s;
-}
-.about-se.active{
-    opacity: 1;
-    transition: all 0.5s;
-}
-.about-se{
-    opacity: 0;
-}
-.resume{
-    opacity: 0;
-}
-.resume.active{
-    opacity: 1;
-    transition: all 0.5s;
 }
 .resume-text{
     font-size: 40px;
