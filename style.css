@@ -293,6 +293,15 @@ span{
     margin-bottom: 20px;
     border: 1px solid black;
 }
+.pc3{
+    width: 70%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.pc3-con {
+    margin-left: 300px;
+}
 .port-title-text{
     color: #040b14;
     margin-bottom: 20px;
